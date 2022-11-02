@@ -36,7 +36,8 @@ header .logo img {
   object-fit: cover;
 }
 header .burger {
-  align-self: center;
+  visibility: hidden;
+  align-self: flex-end;
   width: 42px;
   height: 24px;
   cursor: pointer;
@@ -68,8 +69,8 @@ header .burger span:after {
   transform: translateY(10px);
 }
 header nav {
-  display: block;
-  align-self: center;
+  align-self: flex-end;
+  display: flex;
 }
 header nav ul {
   display: flex;
@@ -79,6 +80,16 @@ header nav ul {
 header nav ul li a {
   text-transform: uppercase;
   font-size: 0.9rem;
+}
+@media screen and (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+  header .burger {
+    visibility: visible;
+    align-self: center;
+    justify-self: flex-end;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
