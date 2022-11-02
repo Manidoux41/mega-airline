@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../../assets/logo.png'
 
 const Header = () => {
   return (
     <header>
-        <h1>Mega Airline</h1>
+        <div className="logo">
+          <img src={Logo} alt="logo mega" />
+        </div>
         <nav>
           <ul>
             <li>
