@@ -71,7 +71,7 @@ header .burger span:after {
   transform: translateY(10px);
 }
 header nav {
-  align-self: flex-end;
+  align-self: center;
   display: flex;
 }
 header nav ul {
