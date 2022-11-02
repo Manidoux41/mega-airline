@@ -20,7 +20,7 @@ const Header = () => {
               <Link to='/direction'>Direction</Link>
             </li>
             <li>
-              <Link to='/subscribe'>Inscription</Link>
+              <Link to='/inscription'>Inscription</Link>
             </li>
           </ul>
         </nav>
