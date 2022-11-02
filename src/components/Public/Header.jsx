@@ -8,6 +8,9 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} alt="logo mega" />
         </div>
+        <div className="burger">
+          <span></span>
+        </div>
         <nav>
           <ul>
             <li>
