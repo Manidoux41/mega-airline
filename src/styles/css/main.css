@@ -22,7 +22,7 @@ a {
 
 /* HEADER */
 header {
-  padding: 20px 100px;
+  padding: 18px 106px;
   display: flex;
   justify-content: space-between;
 }
@@ -77,11 +77,11 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 header nav ul li a {
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
 }
 @media screen and (max-width: 992px) {
   header nav {
